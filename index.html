@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img class="img1" src="logo.webp" alt="">
+            <h1 class="title">Urban Bites</h1>
+
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="timings">
+            <div class="menu">
+                <img id="welcome" src="welcome.webp" alt="">
+                <h1 class="slogan">Food Made for Moments That Matter</h1>
+
+            </div>
+            <div class="order">
+                <h1 id="omenu">Order Now</h1>
+                <div class="box">
+                    <div class="oleft">
+                        <ul>
+                            <li class="check"><input type="checkbox" id="item1"> Paneer Butter Masala - ₹599.00</li>
+                            <li class="check"><input type="checkbox" id="item2"> Masala Dosa - ₹499.00</li>
+                            <li class="check"><input type="checkbox" id="item3"> Hyderabadi Biryani - ₹699.00</li>
+                            <li class="check"><input type="checkbox" id="item4"> Chicken Tikka - ₹550.00</li>
+                            <li class="check"><input type="checkbox" id="item5"> Aloo Paratha - ₹450.00</li>
+                            <li class="check"><input type="checkbox" id="item6"> Tandoori Chicken - ₹799.00</li>
+                            <li class="check"><input type="checkbox" id="item7"> Pav Bhaji - ₹350.00</li>
+                            <li class="check"><input type="checkbox" id="item8"> Baingan Bharta - ₹650.00</li>
+                            <li class="check"><input type="checkbox" id="item9"> Mutton Rogan Josh - ₹750.00</li>
+                            <li class="check"><input type="checkbox" id="item10"> Palak Paneer - ₹650.00</li>
+                            <li class="check"><input type="checkbox" id="item11"> Malai Kofta - ₹699.00</li>
+                            <li class="check"><input type="checkbox" id="item12"> Dhokla - ₹450.00</li>
+                            <li class="check"><input type="checkbox" id="item13"> Garlic Naan - ₹199.00</li>
+                            <li class="check"><input type="checkbox" id="item14"> Gulab Jamun - ₹299.00</li>
+                        </ul>
+                    </div>
+                    <div class="oright">
+                        <ul>
+                            <li class="check"><input type="checkbox" id="item15"> Butter Chicken - ₹600.00</li>
+                            <li class="check"><input type="checkbox" id="item16"> Fish Curry - ₹800.00</li>
+                            <li class="check"><input type="checkbox" id="item17"> Chicken Korma - ₹750.00</li>
+                            <li class="check"><input type="checkbox" id="item18"> Momos with Spicy Chutney - ₹200.00</li>
+                            <li class="check"><input type="checkbox" id="item19"> Rajma Chawal - ₹350.00</li>
+                            <li class="check"><input type="checkbox" id="item20"> Paneer Tikka - ₹650.00</li>
+                            <li class="check"><input type="checkbox" id="item21"> Grilled Chicken Wings - ₹300.00</li>
+                            <li class="check"><input type="checkbox" id="item22"> Chole Bhature - ₹350.00</li>
+                            <li class="check"><input type="checkbox" id="item23"> Saffron Pulao - ₹850.00</li>
+                            <li class="check"><input type="checkbox" id="item24"> Butter Naan - ₹150.00</li>
+                            <li class="check"><input type="checkbox" id="item25"> Seekh Kebab - ₹1200.00</li>
+                            <li class="check"><input type="checkbox" id="item26"> Paya Soup - ₹850.00</li>
+                            <li class="check"><input type="checkbox" id="item27"> Jalebi - ₹250.00</li>
+                            <li class="check"><input type="checkbox" id="item28"> Chicken 65 - ₹700.00</li>
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <div class="footer">
+                    <div class="total">
+                        <h2>Total=</h2>
+                        <h2 id="rs">Rs</h2>
+                        <h2 id="tp"> 0</h2>
+                     
+                    </div>
+                    <div class="oplace">
+                        <button class="btn">Place Order</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right">
+
+            <div class="time">
+                <h1 class="heading">Dine-In</h1>
+                <div class="rightimg">
+                    <img id="resturantimg" src="resturant.jpg" alt="">
+                    <img id="resturantfood" src="food.jpg" alt="">
+                </div>
+                
+                
+
+            </div>
+
+            <div class="rimg">
+                <p class="auto"> <span class="auto-type"></span></p>
+
+                <button class="btn2">Book Now</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+
+    <script>
+        let typed = new Typed(".auto-type", {
+            strings: ["Your table is ready", "Your cravings are waiting!"],
+            typeSpeed: 70,
+            backSpeed: 70,
+            loop: true
+        })
+    </script>
+
+</body>
+
+</html>
