@@ -65,6 +65,7 @@ a {
 
 .title {
     margin-left: 2%;
+    color: #ffffff;
 
 }
 
@@ -149,11 +150,11 @@ a {
 
 .auto {
     font-size: 50px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .btn2 {
-    background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%)
+    background-image: linear-gradient(to right, #dc9d16 0%, #b31217 51%, #e52d27 100%)
 }
 
 .btn2 {
@@ -168,7 +169,6 @@ a {
     border-radius: 10px;
     display: block;
 }
-
 .btn2:hover {
     background-position: right center;
     color: #fff;
@@ -258,4 +258,16 @@ a {
     width: 30%;
     padding-bottom: 30px;
  
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background: rgb(54,54,54);
+    background: linear-gradient(0deg, rgba(54,54,54,1) 14%, rgba(125,124,124,1) 100%, rgba(255,91,0,1) 100%, rgba(70,128,112,1) 100%, rgba(161,46,46,1) 100%, rgba(121,68,9,1) 100%);
+   border-top: 1px solid #000000;
+   
+}
+a:hover{
+    color: #fff200;
+
 }
